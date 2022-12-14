@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"></script>
+  <head>
+    <title>Lottery Website</title>
+  </head>
+  <body>
+    <h1>Welcome to the lottery website!</h1>
+    <p>Connect your Metamask wallet by clicking the button below:</p>
+    <button onclick="connectMetamask()" id="connect-metamask">Connect Metamask</button>
+    <p>Connect to the Smart Contract by clicking the button below:</p>
+    <button onclick="connectContract()" id="connect-contract">Connect smart contract</button>
+    <p>Enter the lottery by clicking the button below:</p>
+    <button onclick="enter()" id="enter-lottery-button">Enter Lottery</button>
+    <p>To pick a winner, click the button below:</p>
+    <button onclick="pickWinner()" id="pick-winner-button">Pick Winner <span id="winner"></span> </button>
+    <p>Number of people entered: <span id="entered-count">0</span></p>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
